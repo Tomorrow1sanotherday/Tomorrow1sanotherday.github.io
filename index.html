@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Academic Homepage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Navigation -->
+        <header class="header">
+            <nav class="nav">
+                <a href="#" class="nav-link active">Home</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#research" class="nav-link">Research</a>
+                <a href="#publications" class="nav-link">Publications</a>
+                <a href="#awards" class="nav-link">Awards</a>
+                <a href="#experience" class="nav-link">Experience</a>
+            </nav>
+        </header>
+
+        <div class="main-wrapper">
+            <!-- Left Sidebar -->
+            <aside class="sidebar">
+                <div class="profile">
+                    <div class="profile-name">
+                        <h1 class="name">Runhao Fu</h1>
+                        <p class="name-zh">付润豪</p>
+                    </div>
+                    <div class="profile-title">
+                        <p>M.S. Student @ Anhui University</p>
+                        <p class="department">Department of Computer Science</p>
+                    </div>
+                </div>
+
+                <div class="profile-image">
+                    <img src="profilepic.jpg" alt="Profile Picture" id="profile-img">
+                </div>
+
+                <div class="profile-links">
+                    <a href="https://scholar.google.com" target="_blank" class="link-item">
+                        <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/>
+                        </svg>
+                        Google Scholar
+                    </a>
+                    <a href="https://github.com/Tomorrow1sanotherday" target="_blank" class="link-item">
+                        <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                        GitHub
+                    </a>
+                    <a href="mailto:furunhao2000@163.com" class="link-item">
+                        <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                        </svg>
+                        Email
+                    </a>
+                </div>
+            </aside>
+
+            <!-- Main Content -->
+            <main class="content">
+                <!-- Introduction -->
+                <section class="section">
+                    <p class="intro-text">
+                        I'm a 3-rd year M.S. student in Computer Science at <a href="https://www.ahu.edu.cn/main.htm" class="text-link">Anhui University</a>, 
+                        advised by <a href="https://cs.ahu.edu.cn/2021/1214/c20806a276921/page.htm" class="text-link">Prof. Hong Zhong</a>. I am currently working as a research intern under the supervision of Prof.<a href="https://xueliancheng.github.io/" class="text-link">Prof. Xuelian Cheng</a> and <a href="#" class="text-link">Prof. Zongyuan Ge</a> at <a href="https://zongyuange.github.io/" class="text-link">Monash University</a>.
+                        I also work closely with <a href="https://shijian2001.github.io/" class="text-link">Shijian Wang</a> at the Southeast University.
+                    </p>
+                </section>
+
+                <!-- Research Interests -->
+                <section class="section" id="research">
+                    <h2 class="section-title">
+                        <span class="icon">🎯</span>
+                        Research Interests
+                    </h2>
+                    <p class="section-text">
+                        My research interest is <strong>Data-Centric AI</strong> with emphasis on 
+                        <strong>Large Multimodal Models</strong>, including Image / Video / 3D / World Model.
+                    </p>
+                    <p class="section-text">
+                        If you want to discuss relevant research topics or potential collaborations, 
+                        feel free to send me an <a href="mailto:furunhao2000@163.com" class="text-link">email</a>.
+                    </p>
+                </section>
+
+                <!-- News -->
+                <section class="section">
+                    <h2 class="section-title">
+                        <span class="icon">📢</span>
+                        News
+                    </h2>
+                    <ul class="news-list">
+                        <li class="news-item">
+                            <span class="news-date">[10/28/2025]</span>
+                            <span class="news-content">
+                                A new preprint is released! Check 
+                                <a href="https://www.arxiv.org/abs/2510.23473" class="text-link">Video-Thinker: Sparking “Thinking with Videos” via Reinforcement Learning</a> 
+                                for more details!
+                            </span>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Selected Research -->
+                <section class="section" id="publications">
+                    <h2 class="section-title">
+                        <span class="icon">📄</span>
+                        Selected Research
+                    </h2>
+                    <p class="note">(* denotes equal contribution)</p>
+                    
+                    <div class="publications">
+                        <article class="publication-card">
+                            <h3 class="paper-title">
+                                <a href="" class="paper-link">Video-Thinker: Sparking “Thinking with Videos” via Reinforcement Learning</a>
+                            </h3>
+                            <p class="paper-authors">
+                                Shijian Wang, Jiarui Jin, Xingjian Wang, Linxin Song, <strong>Runhao Fu</strong>, Hecheng Wang, Zongyuan Ge, Yuan Lu, Xuelian Cheng
+                            </p>
+                            <p class="paper-venue">Submitted to Conference Name 2026</p>
+                        </article>
+                    </div>
+                </section>
+
+                <!-- Education -->
+                <section class="section" id="education">
+                    <h2 class="section-title">
+                        <span class="icon">🎓</span>
+                        Education
+                    </h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-year">2024 - Present</div>
+                            <div class="timeline-content">
+                                <h3 class="timeline-title">M.S. in Computer Science</h3>
+                                <p class="timeline-org">Anhui University</p>
+                                <p class="timeline-desc">Advisor: Prof. Hong Zhong</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">2018 - 2022</div>
+                            <div class="timeline-content">
+                                <h3 class="timeline-title">B.S. in Computer Science</h3>
+                                <p class="timeline-org">Shanghai University of Electric Power</p>
+                                <p class="timeline-desc">GPA: 3.8/4.0</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Awards -->
+                <section class="section" id="awards">
+                    <h2 class="section-title">
+                        <span class="icon">🏆</span>
+                        Awards & Honors
+                    </h2>
+                    <ul class="awards-list">
+                        <li class="award-item">
+                            <span class="award-year">2025</span>
+                            <div class="award-content">
+                                <strong>First-Class Scholarship</strong>
+                                <p>Anhui University 2025</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Experience -->
+                <section class="section" id="experience">
+                    <h2 class="section-title">
+                        <span class="icon">💼</span>
+                        Experience
+                    </h2>
+                    <div class="timeline">
+                        <!-- <div class="timeline-item">
+                            <div class="timeline-year">2024 - Present</div>
+                            <div class="timeline-content">
+                                <h3 class="timeline-title">Research Intern</h3>
+                                <p class="timeline-org">Company/Institution Name</p>
+                                <p class="timeline-desc">Working on large language models and multimodal learning.</p>
+                            </div>
+                        </div> -->
+                        <!-- <div class="timeline-item">
+                            <div class="timeline-year">2023 - 2024</div>
+                            <div class="timeline-content">
+                                <h3 class="timeline-title">Teaching Assistant</h3>
+                                <p class="timeline-org">University Name</p>
+                                <p class="timeline-desc">Assisted in teaching Machine Learning course.</p>
+                            </div> -->
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">2025 - present</div>
+                            <div class="timeline-content">
+                                <h3 class="timeline-title">Research Assistant</h3>
+                                <p class="timeline-org">Monash University</p>
+                                <p class="timeline-desc">Conducted research on computer vision and deep learning.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
